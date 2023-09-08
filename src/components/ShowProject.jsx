@@ -28,11 +28,11 @@ const ShowProject = () => {
         <>
             {project.map(project => (
                 <div key={project.id} className="all-container">
-                    <div className="contenedor-project" >
-                        <p> Proyecto ID: <span className='nameProject'>{project.id}</span> </p>
-                        <p> Nombre: <span className='nameProject'>{project.name}</span></p>
-                        <p> Descripcion: <span className='nameProject'>{project.description}</span> </p>
-                        <p> {project.picture} </p>
+                    <div className="container-project" >
+                        <p> Proyecto ID: <span className='name-Project'>{project.id}</span> </p>
+                        <p> Nombre: <span className='name-Project'>{project.name}</span></p>
+                        <p> Descripcion: <span className='name-Project'>{project.description}</span> </p>
+                        <img className='pic-project' src={project.picture} alt={project.name}></img>
                         <p> {project.link1}</p>
                         <p> {project.link2}</p>
                     </div>
