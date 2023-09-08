@@ -29,9 +29,9 @@ const ShowProject = () => {
             {project.map(project => (
                 <div key={project.id} className="all-container">
                     <div className="contenedor-project" >
-                        <p> ID#{project.id}</p>
-                        <p> {project.name}</p>
-                        <p> {project.description} </p>
+                        <p> Proyecto ID: <span className='nameProject'>{project.id}</span> </p>
+                        <p> Nombre: <span className='nameProject'>{project.name}</span></p>
+                        <p> Descripcion: <span className='nameProject'>{project.description}</span> </p>
                         <p> {project.picture} </p>
                         <p> {project.link1}</p>
                         <p> {project.link2}</p>
