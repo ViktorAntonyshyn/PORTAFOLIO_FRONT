@@ -2,7 +2,7 @@ import ShowProject from "../components/ShowProject";
 import { NavLink } from "react-router-dom";
 
 
-const HomeProjects = () => {
+const Home = () => {
     return (
         <>
             <NavLink to = "/create"><button className="buttons">Subir Proyesto</button></NavLink>
@@ -16,4 +16,4 @@ const HomeProjects = () => {
 }
 
 
-export default HomeProjects;
+export default Home;
