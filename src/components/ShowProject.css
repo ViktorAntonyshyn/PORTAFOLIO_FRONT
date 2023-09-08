@@ -1,23 +1,29 @@
+body {
+    background-image: url("src/pics/background.png");
+}
 p {font-size: large;}
 
 p .name-Project {
     font-size: x-large;
     color: rgb(226, 31, 31);
 }
-.pic-project{height: 40vh;}
+.pic-project{
+    height: 30vh;
+}
 
 .container-project{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .all-container {
     margin-top: 20px;
-    width: 80%;
+    margin-left: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-items: center;
     border: solid 3px black;
     border-radius: 20px;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
@@ -40,6 +46,7 @@ p .name-Project {
     
     font-size: 16px;
     font-weight: bolder;
+    margin-top: 20px;
     width: 180px;
     height: 50px;
     border: solid 1px;
