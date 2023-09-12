@@ -9,15 +9,12 @@ const EditProject = () => {
     const [picture, setPicture] = useState('')
     const [link1, setLink1] = useState('')
     const [link2, setLink2] = useState('')
-    const {id} = useParams();
-    
+    const {id} = useParams();    
     
     const navigate = useNavigate()
     const cancel = () => {
         navigate("/");
     };
-
-    
 
     const update = async (e) => {
         e.preventDefault()

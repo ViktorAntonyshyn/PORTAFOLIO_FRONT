@@ -35,8 +35,8 @@ const ShowProject = () => {
                         <p> Nombre: <span className='name-Project'>{project.name}</span></p>
                         <p> Descripcion: <span className='name-Project'>{project.description}</span> </p>
                         <img className='pic-project' src={project.picture} alt={project.name}></img>
-                        <a href={project.link1}>Ir a GitHub repositorio {project.link1}</a>
-                        <a href={project.link2}>Ir a GitHub repositorio {project.link2}</a>
+                        <a href={project.link1} target="_blank" rel="noopener noreferrer">Ir a GitHub repositorio {project.link1}</a>
+                        <a href={project.link2} target="_blank" rel="noopener noreferrer">Ir a GitHub repositorio {project.link2}</a>
                     </div>
                     <div className="container-buttones">
                         <NavLink to={`/edit/${project.id}`}><button className="buttons">Editar project</button></NavLink>
