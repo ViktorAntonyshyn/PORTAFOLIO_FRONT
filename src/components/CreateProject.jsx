@@ -29,23 +29,23 @@ const CreateProject = () => {
                     <h2>Add project</h2>
                     <form onSubmit={store}>
                         <div>
-                            <form>Name of project</form>
+                            <label>Name of project: </label>
                             <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
                         </div>
                         <div>
-                            <form>Description</form>
+                            <label>Description: ---- </label>
                             <input type="text" value={description} onChange={(e) => setDedcription(e.target.value)} />
                         </div>
                         <div>
-                            <form>Picture</form>
+                            <label>Picture: ---------</label>
                             <input type="text" value={picture} onChange={(e) => setPicture(e.target.value)} />
                         </div>
                         <div>
-                            <form>Link GitHub</form>
+                            <label>Link GitHub: ----</label>
                             <input type="text" value={link1} onChange={(e) => setLink1(e.target.value)} />
                         </div>
                         <div>
-                            <form>Other link</form>
+                            <label>Other link: ------</label>
                             <input type="text" value={link2} onChange={(e) => setLink2(e.target.value)} />
                         </div>
                         <button className="buttons">Upload</button>

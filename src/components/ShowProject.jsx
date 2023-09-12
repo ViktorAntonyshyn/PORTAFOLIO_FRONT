@@ -9,19 +9,22 @@ const ShowProject = () => {
     const [project, setProject] = useState([])
     useEffect(() => {
         getAllProgects()
-    }, [])
-
+    }, []);
+    
+    
     const getAllProgects = async () => {
         const response = await axios.get(url)
         let data = response.data
         console.log(data)
         setProject(data)
     }
-
+    const navigate = useNavigate();
     const handleDelete = async (id) => {
         await axios.delete(`${url}/${id}`);
         setProject((prevProject) => prevProject.filter((cita) => project.id !== id));
         alert(`ATENTION! DELETING PROJECT ID#${id}`);
+        
+        navigate('/');
     };
 
     return (
