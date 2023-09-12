@@ -50,28 +50,27 @@ getProjectById()
                         value={name} onChange={(e) => setName(e.target.value)}/>
                     </div>
                     <div>
-                        <label htmlFor="nameUsario">Dedcription -</label>
+                        <label htmlFor="nameUsario">Dedcription: ------</label>
                         <input type="text" id="hover"
                         value={description} onChange={(e) => setDedcription(e.target.value)}/>
                     </div>
                     <div>
-                        <label htmlFor="fecha">Picture ---------------</label>
+                        <label htmlFor="fecha">Picture -----------</label>
                         <input type="text" id="hover"
                         value={picture} onChange={(e) => setPicture(e.target.value)}/>
                     </div>
                     <div>
-                        <label htmlFor="hora">Link GitHub: ----------------</label>
+                        <label htmlFor="hora">Link GitHub: -----</label>
                         <input type="text" id="hover"
                         value={link1} onChange={(e) => setLink1(e.target.value)}/>
                     </div>
                     <div>
-                        <label htmlFor="hora">Other link: ----------------</label>
+                        <label htmlFor="hora">Other link: -------</label>
                         <input type="text" id="hover"
                         value={link2} onChange={(e) => setLink2(e.target.value)}/>
                     </div>
-                    <button className="buttons">Confirmar</button>
-                    <button className="buttons" onClick={cancel}>Cancelar</button>   
-
+                    <button className="buttons">Confirm</button>
+                    <button className="buttons" onClick={cancel}>Cancel</button>   
                 </form>
             </div>
         </div>
