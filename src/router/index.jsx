@@ -8,11 +8,11 @@ export const router = createBrowserRouter ([
     },
 /*     {
         path: "/create",
-        element: <Crear/>  
+        element: <Create/>  
     }, 
 {
         path: "/edit/:id",
-        element: <Editar/>  
+        element: <Edit/>  
     }, */
 ]);
 
