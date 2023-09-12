@@ -35,9 +35,6 @@ const ShowProject = () => {
                         <img className='pic-project' src={project.picture} alt={project.name}></img>
                         <a href={project.link1}>Ir a GitHub repositorio {project.link1}</a>
                         <a href={project.link2}>Ir a GitHub repositorio {project.link2}</a>
-                        
-                        <p> {project.link1}</p>
-                        <p> {project.link2}</p>
                     </div>
                     <div className="container-buttones">
                         <NavLink to={`/edit/${project.id}`}><button className="buttons">Editar project</button></NavLink>
