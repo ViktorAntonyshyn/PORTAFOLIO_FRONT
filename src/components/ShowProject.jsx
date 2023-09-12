@@ -23,7 +23,6 @@ const ShowProject = () => {
         await axios.delete(`${url}/${id}`);
         setProject((prevProject) => prevProject.filter((cita) => project.id !== id));
         alert(`ATENTION! DELETING PROJECT ID#${id}`);
-        
         navigate('/');
     };
 
