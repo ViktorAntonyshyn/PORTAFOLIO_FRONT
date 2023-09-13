@@ -1,11 +1,9 @@
-
-const Header = () => {
-
+const Footer = () => {
     return (
         <>
 
             <div className="container-project" >
-                <h3> Header para mi pagina</h3>
+                <h3> Footer para mi pagina</h3>
             </div>
 
         </>
@@ -13,4 +11,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Footer;
