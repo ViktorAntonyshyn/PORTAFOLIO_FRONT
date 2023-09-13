@@ -1,8 +1,8 @@
 import ShowProject from "../components/ShowProject";
 import { NavLink } from "react-router-dom";
 import './Home.css'
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../components/Atomos/Header";
+import Footer from "../components/Atomos/Footer";
 
 const Home = () => {
     return (
