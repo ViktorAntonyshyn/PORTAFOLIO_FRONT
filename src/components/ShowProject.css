@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background-image: url("src/pics/background.png");
 }
 p {font-size: large;}
@@ -28,7 +29,7 @@ p .name-Project {
     border-radius: 20px;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
     /* background-color: whitesmoke; */
-    background-image: url("src/pics/background1.png");
+    background-image: url("./src/pics/background1.png");
 }
 .all-container:hover {
     /* transform: translateY (10px); */
