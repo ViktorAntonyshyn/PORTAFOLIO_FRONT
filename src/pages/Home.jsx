@@ -4,12 +4,14 @@ import './Home.css'
 import Header from "../components/Atomos/Header";
 import Footer from "../components/Atomos/Footer";
 import Lenguages from "../components/Atomos/Languages";
+import Navbar from "../components/Atomos/Navbar";
+
 
 const Home = () => {
     return (
         <>
             <div>
-                <Header />
+                <Navbar/>
             </div>
 
             <div className="page">
