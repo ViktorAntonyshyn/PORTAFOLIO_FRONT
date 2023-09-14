@@ -13,13 +13,13 @@ const EditProject = () => {
     
     const navigate = useNavigate()
     const cancel = () => {
-        navigate("/");
+        navigate("/projects");
     };
 
     const update = async (e) => {
         e.preventDefault()
         await axios.put(`${url}/${id}`, {name: name, description: description, picture: picture, link1: link1, link2: link2}) 
-        navigate("/");
+        navigate("/projects");
     }
     useEffect(() => {
         const getProjectById = async () => {

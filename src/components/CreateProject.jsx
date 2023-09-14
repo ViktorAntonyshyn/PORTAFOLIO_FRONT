@@ -13,13 +13,13 @@ const CreateProject = () => {
 
     const navigate = useNavigate()
     const cancel = () => {
-        navigate("/");
+        navigate("/projects");
     };
 
     const store = async (e) => {
         e.preventDefault()
         await axios.post(url, { name: name, description: description, picture: picture, link1: link1, link2: link2 })
-        navigate("/")
+        navigate("/projects")
     };
 
     return (
