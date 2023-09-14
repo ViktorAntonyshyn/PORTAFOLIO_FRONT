@@ -1,28 +1,33 @@
-
 body {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Горизонтальне центрування */
-    justify-content: flex-start; /* Вертикальне центрування в горі */
-    min-height: 100vh; /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
+    align-items: center;
+    /* Горизонтальне центрування */
+    justify-content: flex-start;
+    /* Вертикальне центрування в горі */
+    min-height: 100vh;
+    /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
     margin: 0;
     background-image: url("src/pics/background.png")
 }
-p {font-size: large;}
+
+p {
+    font-size: large;
+}
 
 p .name-Project {
     font-size: x-large;
     color: rgb(226, 31, 31);
 }
-.pic-project{
+
+.pic-project {
     height: 30vh;
 }
 
 .all-container {
     margin-top: 20px;
-    margin-left: 20px;
-        width: 50%;
-        white-space: normal;
+    width: 50%;
+    white-space: normal;
     display: flex;
     flex-direction: column;
     border: solid 3px black;
@@ -31,30 +36,32 @@ p .name-Project {
     /* background-color: whitesmoke; */
     background-image: url("./src/pics/background1.png");
 }
+
 .all-container:hover {
     /* transform: translateY (10px); */
     box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.4);
 }
-.container-project{
+
+.container-project {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+
+
 }
 
 
-.container-buttones{
+.container-buttones {
     margin-bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
-.buttons{
-    
+.buttons {
+
     font-size: 16px;
     font-weight: bolder;
     margin-top: 20px;
@@ -65,7 +72,8 @@ p .name-Project {
     background-color: rgb(199, 206, 214);
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
-.buttons:hover{
+
+.buttons:hover {
     background-color: rgb(151, 165, 185);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     color: rgb(52, 52, 53);
