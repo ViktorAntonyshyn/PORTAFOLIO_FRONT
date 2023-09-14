@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Горизонтальне центрування */
+    justify-content: flex-start; /* Вертикальне центрування в горі */
+    min-height: 100vh; /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
+    margin: 0;
+}

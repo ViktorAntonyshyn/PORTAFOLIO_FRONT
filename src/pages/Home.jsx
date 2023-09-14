@@ -16,7 +16,7 @@ const Home = () => {
                 <NavLink to="/create"><button className="buttons">Subir Proyesto</button></NavLink>
                 <h2>Lista de Proyectos:</h2>
 
-                <div>
+                <div className="project-cards">
                     <ShowProject />
                 </div>
             </div>
