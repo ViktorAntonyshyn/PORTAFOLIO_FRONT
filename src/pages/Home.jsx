@@ -5,13 +5,14 @@ import Header from "../components/Atomos/Header";
 import Footer from "../components/Atomos/Footer";
 import Lenguages from "../components/Atomos/Languages";
 import Navbar from "../components/Atomos/Navbar";
+import Navbar1 from "../components/Atomos/Navbar1";
 
 
 const Home = () => {
     return (
         <>
             <div>
-                <Navbar/>
+                <Navbar1/>
             </div>
 
             <div className="page">
