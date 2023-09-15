@@ -2,11 +2,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
+
 function Languages() {
     return (
         <>
 
-<div>
+<div className='lang'>
                 <h5>Languages</h5>
             </div>
             <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">

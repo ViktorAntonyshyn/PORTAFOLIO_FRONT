@@ -23,7 +23,7 @@ const ShowProject = () => {
         await axios.delete(`${url}/${id}`);
         setProject((prevProject) => prevProject.filter((project) => project.id !== id));
         alert(`ATENTION! DELETING PROJECT ID#${id}`);
-        navigate('/');
+        navigate('/projects');
     };
 
     return (
@@ -39,7 +39,7 @@ const ShowProject = () => {
                         <a href={project.link2} target="_blank" rel="noopener noreferrer">Ir a GitHub repositorio {project.link2}</a>
                     </div>
                     <div className="container-buttones">
-                        <NavLink to={`/edit/${project.id}`}><button className="buttons">Editar project</button></NavLink>
+                        <NavLink to={`/projects/edit/${project.id}`}><button className="buttons">Editar project</button></NavLink>
                         <button className="buttons" onClick={() => handleDelete(project.id)}>Eliminar project</button>
                     </div>
                 </div>

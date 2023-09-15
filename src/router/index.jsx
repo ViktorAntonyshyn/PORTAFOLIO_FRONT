@@ -5,16 +5,21 @@ import Edit from "../pages/Edit.jsx"
 import Lang from "../pages/Lang.jsx";
 
 export const router = createBrowserRouter ([
-    {
+    
+  /*   {
         path: "/",
+        element: <Start/>
+    }, */
+    {
+        path: "/projects",
         element: <Home/>
     },
     {
-        path: "/create",
+        path: "/projects/create",
         element: <Create/>  
     }, 
 {
-        path: "/edit/:id",
+        path: "/projects/edit/:id",
         element: <Edit/>  
     }, 
     {
