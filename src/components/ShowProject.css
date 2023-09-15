@@ -1,15 +1,13 @@
-body- {
+body {
     
-    display: flex;
+  /*   display: flex;
     flex-direction: column;
     align-items: center;
-    /* Горизонтальне центрування */
-    justify-content: flex-start;
-    /* Вертикальне центрування в горі */
+    justify-content: flex-start; */ 
+    background-image: url("src/pics/background.png");
     min-height: 100vh;
-    /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
     margin: 0;
-    background-image: url("src/pics/background.png")
+    /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
 }
 
 p {
@@ -65,7 +63,8 @@ p .name-Project {
 
     font-size: 16px;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 75px;
+    margin-bottom: 20px;
     width: 180px;
     height: 50px;
     border: solid 1px;
