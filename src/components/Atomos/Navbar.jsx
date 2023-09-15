@@ -15,10 +15,13 @@ const Navbar = () => {
           <a className="nav-link active" aria-current="page" href="/projects/create">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          <a className="nav-link" href="/projects">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="/projects">Projects</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="languages">Languages</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
