@@ -1,14 +1,12 @@
-
-
 import EditProject from "../components/EditProject";
-import Navbar from "../components/Atomos/Navbar"
+import Navbar1 from "../components/Atomos/Navbar1";
 
 
 const Edit = () => {
     return (
         <>
         <div>
-            <Navbar/>
+            <Navbar1/>
         </div>
             <div>
                 <EditProject />

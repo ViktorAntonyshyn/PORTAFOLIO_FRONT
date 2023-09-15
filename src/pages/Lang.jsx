@@ -2,6 +2,7 @@ import Languages from '../components/Atomos/Languages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import Header from '../components/Atomos/Header';
+import Navbar1 from '../components/Atomos/Navbar1';
 
 
 
@@ -9,7 +10,7 @@ import Header from '../components/Atomos/Header';
 const Lang = () => {
   return (
     <><div>
-      <Header/>
+      <Navbar1/>
     </div>
       <Languages />
     </>
