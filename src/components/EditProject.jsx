@@ -1,8 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
-import Stack from 'react-bootstrap/Stack';
+
 
 // Codigo abajo es cuando back-end modificado para subir binare archivo
 const url = "http://localhost:8080/api/v1/projects";
@@ -56,31 +55,28 @@ const EditProject = () => {
                 <h3>Modify project ID: {id}</h3>
                 <form onSubmit={update}>
                     <div>
-                        <label htmlFor="nameCita">Project name -----</label>
+                        <label htmlFor="name">Project name -----</label>
                         <input type="text" id="hover" value={name} onChange={(e) => setName(e.target.value)} />
                     </div>
                     <div>
-                        <label htmlFor="nameUsario">Description: ------</label>
+                        <label htmlFor="description">Description: ------</label>
                         <input type="text" id="hover" value={description} onChange={(e) => setDescription(e.target.value)} />
                     </div>
                     <div>
-                        <label htmlFor="fecha">Picture -----------</label>
+                        <label htmlFor="picture">Picture -----------</label>
                         <input type="file" onChange={(e) => setPicture(e.target.files[0])} accept="image/*" />
                     </div>
                     <div>
-                        <label htmlFor="hora">Link GitHub: -----</label>
+                        <label htmlFor="link1">Link GitHub: -----</label>
                         <input type="text" id="hover" value={link1} onChange={(e) => setLink1(e.target.value)} />
                     </div>
                     <div>
-                        <label htmlFor="hora">Other link: -------</label>
+                        <label htmlFor="link2">Other link: -------</label>
                         <input type="text" id="hover" value={link2} onChange={(e) => setLink2(e.target.value)} />
                     </div>
                     <button className="buttons">Confirm</button>
                     <button className="buttons" onClick={cancel}>Cancel</button> 
-                    {/* <Stack gap={2} className="col-md-5 mx-auto">
-                        <Button variant="secondary">Save changes</Button>
-                        <Button variant="outline-secondary" onClick={cancel}>Cancel</Button>
-                    </Stack> */}
+
                 </form>
             </div>
         </div>
