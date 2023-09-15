@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import Stack from 'react-bootstrap/Stack';
 
 // Codigo abajo es cuando back-end modificado para subir binare archivo
 const url = "http://localhost:8080/api/v1/projects";
@@ -8,7 +10,7 @@ const url = "http://localhost:8080/api/v1/projects";
 const EditProject = () => {
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
-    const [picture, setPicture] = useState(null); // Зберігатиме файл зображення
+    const [picture, setPicture] = useState(null); 
     const [link1, setLink1] = useState('');
     const [link2, setLink2] = useState('');
     const { id } = useParams();
@@ -23,7 +25,7 @@ const EditProject = () => {
         const formData = new FormData();
         formData.append("name", name);
         formData.append("description", description);
-        formData.append("picture", picture); // Оновлення файлу зображення
+        formData.append("picture", picture); 
         formData.append("link1", link1);
         formData.append("link2", link2);
 
@@ -74,14 +76,18 @@ const EditProject = () => {
                         <input type="text" id="hover" value={link2} onChange={(e) => setLink2(e.target.value)} />
                     </div>
                     <button className="buttons">Confirm</button>
-                    <button className="buttons" onClick={cancel}>Cancel</button>
+                    <button className="buttons" onClick={cancel}>Cancel</button> 
+                    {/* <Stack gap={2} className="col-md-5 mx-auto">
+                        <Button variant="secondary">Save changes</Button>
+                        <Button variant="outline-secondary" onClick={cancel}>Cancel</Button>
+                    </Stack> */}
                 </form>
             </div>
         </div>
     );
 }
 
-export default EditProject; 
+export default EditProject;
 
 
 
