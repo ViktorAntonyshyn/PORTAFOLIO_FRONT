@@ -1,0 +1,8 @@
+.container-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Розміщення елементів вертикально, якщо потрібно */
+    justify-content: center; /* Горизонтальне центрування */
+    align-items: center; /* Вертикальне центрування */
+    min-height: 100vh; /* Мінімальна висота контейнера на весь вигляд вікна */
+}
