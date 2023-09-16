@@ -8,6 +8,8 @@ import Project1 from "../pages/Project1.jsx";
 import Project2 from "../pages/Project2.jsx";
 import Project3 from "../pages/Project3.jsx";
 import ProjectManager from "../pages/ProjectManager.jsx";
+import AboutMe from "../pages/AboutMe.jsx";
+
 
 export const router = createBrowserRouter ([
     
@@ -15,6 +17,10 @@ export const router = createBrowserRouter ([
         path: "/",
         element: <Start/>
     }, */
+    {
+        path: "/about",
+        element: <AboutMe/>
+    },
     {
         path: "/projects",
         element: <Home/>
