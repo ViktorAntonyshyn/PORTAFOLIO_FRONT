@@ -17,12 +17,6 @@ function Navbar1() {
             {[false].map((expand) => (
                 <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3" id='nav'>
                     <Container fluid>
-                        <div>
-                            <Icon icon="bxl:github" color="#678" width="40" height="40" /> &nbsp;
-                            <Icon icon="devicon-plain:linkedin" color="#678" width="33" />&nbsp;&nbsp;
-                            <Icon icon="file-icons:telegram" color="#678" width="33" />&nbsp;&nbsp;&nbsp;
-                            <Icon icon="simple-icons:whatsapp" color="#678" width="33" />
-                        </div>
                         <Navbar.Brand href="#">VIKTOR  ANTONYSHYN </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
@@ -53,7 +47,7 @@ function Navbar1() {
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="/languages">Languages</NavDropdown.Item>
                                     </NavDropdown>
-                                    <Nav.Link href="#action1">Contacts</Nav.Link>
+                                    <Nav.Link href="/contacts">Contacts</Nav.Link>
                                 </Nav>
 
                             </Offcanvas.Body>

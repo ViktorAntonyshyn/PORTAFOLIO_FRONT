@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+   
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copiright{
+    margin-left: 80px;
+}
+
+.links-social {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}

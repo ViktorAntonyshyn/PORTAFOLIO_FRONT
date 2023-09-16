@@ -25,6 +25,7 @@ p .name-Project {
 
 .all-container {
     margin-top: 20px;
+    margin-bottom: 30px;
     width: 100%;
     white-space: normal;
     display: flex;

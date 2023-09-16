@@ -4,6 +4,12 @@ import './Home.css'
 import Footer from "../components/Atomos/Footer";
 import Navbar1 from "../components/Atomos/Navbar1";
 
+/* import IndividualIntervalsExample from "../components/Atomos/IndividualIntervalsExample" */
+
+
+
+
+
 
 const Home = () => {
     return (
@@ -11,6 +17,9 @@ const Home = () => {
             <div>
                 <Navbar1/>
             </div>
+           {/*  <div>
+                <IndividualIntervalsExample/>
+            </div> */}
 
             <div className="page">
                 <NavLink to="/projects/create"><button className="buttons"  type="button-create" >Subir Proyesto</button></NavLink>

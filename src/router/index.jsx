@@ -3,6 +3,7 @@ import Home from "../pages/Home.jsx";
 import Create from "../pages/Create.jsx";
 import Edit from "../pages/Edit.jsx"
 import Lang from "../pages/Lang.jsx";
+import Contacts from "../pages/Contacts.jsx";
 
 export const router = createBrowserRouter ([
     
@@ -25,7 +26,13 @@ export const router = createBrowserRouter ([
     {
         path: "/languages",
         element: <Lang/>  
+    },
+    {
+        path: "/contacts",
+        element: <Contacts/>  
     }
+
+
 ]);
 
 export default router
