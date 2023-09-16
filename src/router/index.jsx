@@ -6,6 +6,8 @@ import Lang from "../pages/Lang.jsx";
 import Contacts from "../pages/Contacts.jsx";
 import Project1 from "../pages/Project1.jsx";
 import Project2 from "../pages/Project2.jsx";
+import Project3 from "../pages/Project3.jsx";
+import ProjectManager from "../pages/ProjectManager.jsx";
 
 export const router = createBrowserRouter ([
     
@@ -24,6 +26,14 @@ export const router = createBrowserRouter ([
     {
         path: "/projects/2",
         element: <Project2/>
+    },
+    {
+        path: "/projects/3",
+        element: <Project3/>
+    },
+    {
+        path: "/projects/manager",
+        element: <ProjectManager/>
     },
     {
         path: "/projects/create",

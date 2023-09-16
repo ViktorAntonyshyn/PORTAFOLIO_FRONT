@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import './ShowProject.css'
 
 const url = "http://localhost:8080/api/v1/projects";
-const ShowProject = () => {
+const ShowProjectManager = () => {
     const [project, setProject] = useState([])
     useEffect(() => {
         getAllProgects()
@@ -35,10 +35,12 @@ const ShowProject = () => {
                         <br /><p> Project name: <span className='name-Project'>{project.name}</span></p>
                         <p> Description: <span className='name-Project'>{project.description}</span> </p>
                         <img className='pic-project' src={project.picture} alt={project.name}></img>
+                        <a href={project.link1} target="_blank" rel="noopener noreferrer">Go to GitHub repository {project.link1}</a>
+                        <a href={project.link2} target="_blank" rel="noopener noreferrer">Go to GitHub repository {project.link2}</a>
                     </div>
                     <div className="container-buttones">
-                        <NavLink to={`/projects/${project.id}`}><button className="buttons">Go to project</button></NavLink>
-                        
+                        <NavLink to={`/projects/edit/${project.id}`}><button className="buttons">Edit project</button></NavLink>
+                        <button className="buttons" onClick={() => handleDelete(project.id)}>Delete project</button>
                     </div>
                 </div>
             ))}
@@ -47,4 +49,4 @@ const ShowProject = () => {
 
 }
 
-export default ShowProject 
+export default ShowProjectManager;

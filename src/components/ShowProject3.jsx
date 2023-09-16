@@ -5,24 +5,28 @@ import { NavLink } from 'react-router-dom';
 import './ShowProject.css'
 
 const url = "http://localhost:8080/api/v1/projects";
-const ShowProject = () => {
-    const [project, setProject] = useState([])
+
+const ShowProject3 = () => {
+    const [project, setProject] = useState([]);
+    const idToShow = 3; // ID for show project
+    
     useEffect(() => {
-        getAllProgects()
+        getAllProgects(idToShow);
     }, []);
     
-    
-    const getAllProgects = async () => {
-        const response = await axios.get(url)
-        let data = response.data
-        console.log(data)
-        setProject(data)
+    const getAllProgects = async (id) => {
+        const response = await axios.get(`${url}/${id}`);
+        let data = response.data;
+        console.log(data);
+        setProject([data]);
     }
+
     const navigate = useNavigate();
+
     const handleDelete = async (id) => {
         await axios.delete(`${url}/${id}`);
-        setProject((prevProject) => prevProject.filter((project) => project.id !== id));
-        alert(`ATENTION! DELETING PROJECT ID#${id}`);
+        setProject([]);
+        alert(`ATTENTION! DELETING PROJECT ID#${id}`);
         navigate('/projects');
     };
 
@@ -30,21 +34,19 @@ const ShowProject = () => {
         <>
             {project.map(project => (
                 <div key={project.id} className="all-container">
-                    <div className="container-project" >
-                        {/* <p> Project  <span className='name-Project'>{project.id}</span> </p> */}
+                    <div className="container-project">
+                        {/* <p> Project <span className='name-Project'>{project.id}</span> </p> */}
                         <br /><p> Project name: <span className='name-Project'>{project.name}</span></p>
                         <p> Description: <span className='name-Project'>{project.description}</span> </p>
                         <img className='pic-project' src={project.picture} alt={project.name}></img>
+                        <a href={project.link1} target="_blank" rel="noopener noreferrer">Go to GitHub repository {project.link1}</a>
+                        <a href={project.link2} target="_blank" rel="noopener noreferrer">Go to GitHub repository {project.link2}</a> <br />
                     </div>
-                    <div className="container-buttones">
-                        <NavLink to={`/projects/${project.id}`}><button className="buttons">Go to project</button></NavLink>
-                        
-                    </div>
+
                 </div>
             ))}
         </>
     )
-
 }
 
-export default ShowProject 
+export default ShowProject3;

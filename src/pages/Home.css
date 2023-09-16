@@ -10,5 +10,8 @@
     flex-direction: column;
     align-items: center;
 }
+.project-list{
+    margin-top: 80px;
+}
 
 
