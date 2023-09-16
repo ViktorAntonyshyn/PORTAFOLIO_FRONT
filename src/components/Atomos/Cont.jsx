@@ -4,7 +4,7 @@ import './Cont.css'
 const Cont = () => {
     return (
         <><div className='container-contact'>
-            <h3> Me contacts:</h3>
+            <h3> Contacts:</h3>
             <p>+34 624036489 /
                 Madrid </p>
             <h3>WatsApp:</h3>

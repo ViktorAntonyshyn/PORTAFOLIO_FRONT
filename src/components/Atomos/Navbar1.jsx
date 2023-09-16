@@ -39,8 +39,8 @@ function Navbar1() {
                                         <NavDropdown.Item href="/projects/3">Project3</NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="/projects/manager">Project Manager</NavDropdown.Item>
-
                                     </NavDropdown>
+
                                     <NavDropdown title="Skills"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                         <NavDropdown.Item href="/projects">Technologies</NavDropdown.Item>
@@ -49,9 +49,15 @@ function Navbar1() {
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="/languages">Languages</NavDropdown.Item>
                                     </NavDropdown>
+
+                                    <NavDropdown title="Curriculum"
+                                        id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                                        <NavDropdown.Item href="/public/CV Víktor Antonyshynf5v2.pdf" target="_blank">Open</NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                        <NavDropdown.Item href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download</NavDropdown.Item>
+                                    </NavDropdown>
                                     <Nav.Link href="/contacts">Contacts</Nav.Link>
                                 </Nav>
-
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
                     </Container>

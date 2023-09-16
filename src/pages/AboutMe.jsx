@@ -6,17 +6,21 @@ import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <>
+        <> <div className="page-about">
             <div>
                 <Navbar1 />
             </div>
             <div className="acordeon">
                 <h3>About me:</h3>
-                <About />
+                <About /><br />
+                <a href="/public/CV Víktor Antonyshynf5v2.pdf" target="_blank">Open curriculum</a><br />
+                <a href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download curriculum</a>
             </div>
             <div>
-                <Footer/>
-            </div>
+                <Footer />
+            </div> 
+        </div>
+
 
         </>
 

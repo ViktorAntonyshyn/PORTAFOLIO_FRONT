@@ -5,19 +5,19 @@ import Navbar1 from "../components/Atomos/Navbar1";
 
 
 const Contacts = () => {
-    return (
-      <><div>
-        <Navbar1/>
+  return (
+    <><div>
+      <Navbar1 />
+    </div>
+      <div>
+        <Cont />
       </div>
-        <div>
-          <Cont />
-        </div>
-        <div>
-            <Footer/>
-        </div>
-  
-      </>
-    )
-  }
-  
-  export default Contacts;
+      <div>
+        <Footer />
+      </div>
+
+    </>
+  )
+}
+
+export default Contacts;

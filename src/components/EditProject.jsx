@@ -16,7 +16,7 @@ const EditProject = () => {
     const navigate = useNavigate();
 
     const cancel = () => {
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     const update = async (e) => {

@@ -21,7 +21,7 @@ const CreateProject = () => {
     };
 
     const cancel = () => {
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     const store = async (e) => {
