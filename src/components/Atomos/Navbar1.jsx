@@ -32,11 +32,11 @@ function Navbar1() {
                                     <Nav.Link href="#action2">Link</Nav.Link>
                                     <NavDropdown title="Projects"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                                        <NavDropdown.Item href="#action5">All projects</NavDropdown.Item>
+                                        <NavDropdown.Item href="/projects">All projects</NavDropdown.Item>
                                         <NavDropdown.Divider />
-                                        <NavDropdown.Item href="/projects">Project1</NavDropdown.Item>
-                                        <NavDropdown.Item href="/projects">Project2</NavDropdown.Item>
-                                        <NavDropdown.Item href="/projects">Project3</NavDropdown.Item>
+                                        <NavDropdown.Item href="/projects/1">Project1</NavDropdown.Item>
+                                        <NavDropdown.Item href="/projects/2">Project2</NavDropdown.Item>
+                                        <NavDropdown.Item href="/projects/3">Project3</NavDropdown.Item>
                                         <NavDropdown.Divider />
 
                                     </NavDropdown>

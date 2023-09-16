@@ -1,11 +1,10 @@
-import ShowProject from "../components/ShowProject";
 import { NavLink } from "react-router-dom";
 import './Home.css'
 import Footer from "../components/Atomos/Footer";
 import Navbar1 from "../components/Atomos/Navbar1";
+import ShowProject2 from "../components/ShowProject2";
 
-
-const Home = () => {
+const Project2 = () => {
     return (
         <>
             <div>
@@ -13,11 +12,11 @@ const Home = () => {
             </div>
 
             <div className="page">
-                <NavLink to="/projects/create"><button className="buttons"  type="button-create" >Add new project</button></NavLink>
-                <h2>Project List:</h2>
+                <NavLink to="/projects"><button className="buttons"  type="button-create" >Back to progects</button></NavLink>
+                <h2>Project 2:</h2>
 
                 <div className="project-cards">
-                    <ShowProject />
+                    <ShowProject2 />
                 </div>
             </div>
             <div>
@@ -29,4 +28,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default Project2;
