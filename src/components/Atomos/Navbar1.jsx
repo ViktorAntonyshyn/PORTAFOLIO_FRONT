@@ -33,10 +33,6 @@ function Navbar1() {
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                         <NavDropdown.Item href="/projects">All projects</NavDropdown.Item>
                                         <NavDropdown.Divider />
-                                        <NavDropdown.Item href="/projects/1">Project1</NavDropdown.Item>
-                                        <NavDropdown.Item href="/projects/2">Project2</NavDropdown.Item>
-                                        <NavDropdown.Item href="/projects/3">Project3</NavDropdown.Item>
-                                        <NavDropdown.Divider />
                                         <NavDropdown.Item href="/projects/manager">Project Manager</NavDropdown.Item>
                                     </NavDropdown>
 

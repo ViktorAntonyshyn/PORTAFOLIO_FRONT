@@ -10,20 +10,7 @@ body {
     /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
 }
 
-p {
-    font-size: large;
-}
-
-p .name-Project {
-    font-size: x-large;
-    color: rgb(226, 31, 31);
-}
-
-.pic-project {
-    height: 30vh;
-}
-
-.all-container {
+.all-container-manager {
     margin-top: 20px;
     margin-bottom: 30px;
     width: 90%;
@@ -42,25 +29,17 @@ p .name-Project {
     box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.4);
 }
 
-.container-project {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.container-buttones {
+.container-buttones-manager {
     margin-bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.buttons {
+.buttons-manager {
     font-size: 16px;
     font-weight: bolder;
-    margin-top: 75px;
+    margin-top: 25px;
     margin-bottom: 20px;
     width: 180px;
     height: 50px;
@@ -70,12 +49,8 @@ p .name-Project {
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
-.buttons:hover {
+.buttons-manager:hover {
     background-color: rgb(151, 165, 185);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     color: rgb(52, 52, 53);
-}
-
-.field{
-    margin-top: 10px;
 }
