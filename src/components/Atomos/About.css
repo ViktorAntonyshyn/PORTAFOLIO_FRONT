@@ -1,14 +1,17 @@
 .container-accordeon{
-    width: 100%;
+     /* width: 100%; //siempre ancho accordeon */
 }
 .name-accordeons{
     font-size: larger;
     font-weight: bolder;
     color: #444;
 }
-.education{
-    margin-left: 150px;
-    margin-left: 150px;
+.info-block{
+    width: 90%;
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+
 }
 .year{
     color: dodgerblue; 

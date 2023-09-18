@@ -9,6 +9,7 @@ function About() {
         <Accordion.Item eventKey="0">
           <Accordion.Header> <span className='name-accordeons'>Who am I</span> </Accordion.Header>
           <Accordion.Body>
+            <div className='info-block'>
             <p>I am Viktor Antonyshyn. I am Ukrainian. I am a refugee from Ukrainian war. My home in Ukraine was
               completely destroyed.  </p>
             <p>I'm starting my life all over again. </p>
@@ -18,13 +19,13 @@ function About() {
             </p>
             <p>Im looking a job like junior full-stack web developer other work related to programming
               Geographic Information Systems (GIS).</p>
-
+</div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header><span className='name-accordeons'>What I can to do</span></Accordion.Header>
           <Accordion.Body>
-            <div>
+            <div className='info-block'>
               <p> • I have 20 years of scientific and technical experience in the oil and gas industry.
                 I participated in more than forty scientific researches, and was engaged in the creation
                 of various images, maps and presentations.</p>
@@ -39,7 +40,7 @@ function About() {
         <Accordion.Item eventKey="2">
           <Accordion.Header><span className='name-accordeons'>Education</span></Accordion.Header>
           <Accordion.Body>
-            <div className='text-block'>
+            <div className='info-block'>
               <p className='institution'>Factoría F5 Training, Barcelona</p>
               <span className='year'>2023</span>
               <p>Bootcamp  Full-Stack web developer(850h)</p>
@@ -67,7 +68,9 @@ function About() {
         <Accordion.Item eventKey="4">
           <Accordion.Header><span className='name-accordeons'>Hobby</span></Accordion.Header>
           <Accordion.Body>
+            <div>
             <p>Software, hardware, computer graphics, music, painting.</p>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
 

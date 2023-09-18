@@ -12,6 +12,7 @@ const Lang = () => {
       <Navbar1 />
     </div>
       <div className='lang'>
+        <h3>Languages</h3>
         <Languages />
       </div>
       <div>
