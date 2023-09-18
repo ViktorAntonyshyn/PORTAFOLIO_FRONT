@@ -1,11 +1,25 @@
+.container-accordeon{
+    width: 100%;
+}
 .name-accordeons{
     font-size: larger;
     font-weight: bolder;
     color: #444;
+}
+.education{
+    margin-left: 150px;
+    margin-left: 150px;
 }
 .year{
     color: dodgerblue; 
 }
 .institution{
     font-weight: bold;
+}
+.lang-acoord{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -90px;
+    margin-bottom: 20px;
 }

@@ -9,7 +9,7 @@ function Languages() {
         <>
             <div className='container-lang'>
                 <div className='lang'>
-                    <h5>Languages</h5>
+                    {/* <h5>Languages</h5> */}
                 </div>
                 <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                     <span>1.  </span>
