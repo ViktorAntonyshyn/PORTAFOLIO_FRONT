@@ -4,7 +4,7 @@
     margin-left: 300px;
     margin-top: 180px;
     width: 50%;
-    height: 55vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,7 @@
     border-radius: 20px;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
     /* background-color: whitesmoke; */
-    background-image: url("./src/pics/background1.png");
+    background-image: url("/src/pics/background1.png");
 }
 .all-container-edit:hover {
     /* transform: translateY (10px); */
