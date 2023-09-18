@@ -27,7 +27,6 @@ function Navbar1() {
 
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <Nav.Link href="#action1">Home</Nav.Link>
                                     <Nav.Link href="/about">About me</Nav.Link>
                                     <Nav.Link href="#action2">Curriculum</Nav.Link>
                                     <NavDropdown title="Projects"

@@ -7,7 +7,7 @@ const Cont = () => {
             <h3> Contacts:</h3>
             <p>+34 624036489 /
                 Madrid </p>
-            <h3>WatsApp:</h3>
+            <h3>WhatsApp:</h3>
             <a href="https://wa.me/qr/2Y7CB33BIZOYP1" target="_blank" rel="noopener noreferrer">
                 <p>https://wa.me/qr/2Y7CB33BIZOYP1</p>
             </a>
