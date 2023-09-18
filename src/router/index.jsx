@@ -6,14 +6,16 @@ import Lang from "../pages/Lang.jsx";
 import Contacts from "../pages/Contacts.jsx";
 import ProjectManager from "../pages/ProjectManager.jsx";
 import AboutMe from "../pages/AboutMe.jsx";
+import Start from "../pages/Start.jsx";
+
 
 
 export const router = createBrowserRouter ([
     
-  /*   {
+   {
         path: "/",
         element: <Start/>
-    }, */
+    },
     {
         path: "/about",
         element: <AboutMe/>
