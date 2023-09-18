@@ -11,12 +11,12 @@ const AboutMe = () => {
                 <Navbar1 />
             </div>
             <div className="acordeon">
-                <h3>About me:</h3>
+                <h4>About me:</h4>
                 <About /><br />
                 <a href="/public/CV Víktor Antonyshynf5v2.pdf" target="_blank">Open curriculum</a><br />
-                <a href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download curriculum</a>
+                <a href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download curriculum</a><br />
             </div>
-{/*             <div>
+         {/*    <div>
                 <Footer />
             </div> */} 
         </div>
