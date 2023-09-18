@@ -16,9 +16,9 @@ const AboutMe = () => {
                 <a href="/public/CV Víktor Antonyshynf5v2.pdf" target="_blank">Open curriculum</a><br />
                 <a href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download curriculum</a><br />
             </div>
-         {/*    <div>
+         <div>
                 <Footer />
-            </div> */} 
+            </div>
         </div>
 
 
