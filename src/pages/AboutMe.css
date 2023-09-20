@@ -1,0 +1,14 @@
+.page-about{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* vertical */
+}
+
+.acordeon{
+    margin-top: 80px;
+    width: 70%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* vertical */
+}

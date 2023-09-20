@@ -1,0 +1,15 @@
+.container-lang {
+
+  /*  min-height: 100vh; */
+  /* Мінімальна висота контейнера на весь вигляд вікна */
+
+}
+
+.lang {
+
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+}

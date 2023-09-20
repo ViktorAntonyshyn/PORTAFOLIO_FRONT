@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-
+import './EditProject.css'
 
 // Codigo abajo es cuando back-end modificado para subir binare archivo
 const url = "http://localhost:8080/api/v1/projects";
@@ -9,14 +9,14 @@ const url = "http://localhost:8080/api/v1/projects";
 const EditProject = () => {
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
-    const [picture, setPicture] = useState(null); 
+    const [picture, setPicture] = useState(null);
     const [link1, setLink1] = useState('');
     const [link2, setLink2] = useState('');
     const { id } = useParams();
     const navigate = useNavigate();
 
     const cancel = () => {
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     const update = async (e) => {
@@ -24,7 +24,7 @@ const EditProject = () => {
         const formData = new FormData();
         formData.append("name", name);
         formData.append("description", description);
-        formData.append("picture", picture); 
+        formData.append("picture", picture);
         formData.append("link1", link1);
         formData.append("link2", link2);
 
@@ -33,7 +33,7 @@ const EditProject = () => {
                 "Content-Type": "multipart/form-data"
             }
         });
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     useEffect(() => {
@@ -51,31 +51,34 @@ const EditProject = () => {
 
     return (
         <div className="all-container-edit">
-            <div className="container-create">
+            <div className="container-edit">
                 <h3>Modify project ID: {id}</h3>
                 <form onSubmit={update}>
-                    <div>
-                        <label htmlFor="name">Project name -----</label>
+                    <div className="form">
+                        <label htmlFor="name">Project name --------</label>
                         <input type="text" id="hover" value={name} onChange={(e) => setName(e.target.value)} />
                     </div>
-                    <div>
-                        <label htmlFor="description">Description: ------</label>
+                    <div className="form">
+                        <label htmlFor="description">Description: ---------</label>
                         <input type="text" id="hover" value={description} onChange={(e) => setDescription(e.target.value)} />
                     </div>
-                    <div>
-                        <label htmlFor="picture">Picture -----------</label>
+                    <div className="form">
+                        <label htmlFor="picture">Picture --------------</label>
                         <input type="file" onChange={(e) => setPicture(e.target.files[0])} accept="image/*" />
                     </div>
-                    <div>
-                        <label htmlFor="link1">Link GitHub: -----</label>
+                    <div className="form">
+                        <label htmlFor="link1">Link GitHub: --------</label>
                         <input type="text" id="hover" value={link1} onChange={(e) => setLink1(e.target.value)} />
                     </div>
-                    <div>
-                        <label htmlFor="link2">Other link: -------</label>
+                    <div className="form">
+                        <label htmlFor="link2">Other link: ----------</label>
                         <input type="text" id="hover" value={link2} onChange={(e) => setLink2(e.target.value)} />
                     </div>
-                    <button className="buttons">Confirm</button>
-                    <button className="buttons" onClick={cancel}>Cancel</button> 
+                    <div className="container-buttones ">
+                        <button className="buttons">Confirm</button>
+                        <button className="buttons" onClick={cancel}>Cancel</button>
+                    </div>
+
 
                 </form>
             </div>
