@@ -1,51 +1,36 @@
 
 
-.all-container-create {
-    margin-left: 300px;
-    margin-top: 180px;
-    width: 50%;
-    height: 55vh;
+.all-container-manager {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 90%;
+    white-space: normal;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: solid 3px black;
     border-radius: 20px;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
     /* background-color: whitesmoke; */
-    background-image: url("./src/pics/background1.png");
+    background-image: url("/src/pics/background1.png");
 }
-.all-container-create:hover {
+
+.all-container-manager:hover {
     /* transform: translateY (10px); */
     box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.4);
 }
 
-.container-create {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form{
-    margin-top: 15px;
-}
-
-.container-buttones {
+.container-buttones-manager {
     margin-bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
 }
 
-.buttons-create {
-
+.buttons-manager {
     font-size: 16px;
     font-weight: bolder;
-    margin-top: 75px;
+    margin-top: 25px;
     margin-bottom: 20px;
-    margin-left: 20px;
     width: 180px;
     height: 50px;
     border: solid 1px;
@@ -54,7 +39,7 @@
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
-.buttons:hover {
+.buttons-manager:hover {
     background-color: rgb(151, 165, 185);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     color: rgb(52, 52, 53);

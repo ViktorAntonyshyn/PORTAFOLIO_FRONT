@@ -1,16 +1,15 @@
-import EditProject from "../components/EditProject";
 import Navbar1 from "../components/Atomos/Navbar1";
 import Footer from "../components/Atomos/Footer";
 
 
-const Edit = () => {
+const Start = () => {
     return (
         <>
         <div>
             <Navbar1/>
         </div>
             <div>
-                <EditProject />
+                
             </div>
             <div>
                 <Footer/>
@@ -19,4 +18,4 @@ const Edit = () => {
     )
 }
 
-export default Edit;
+export default Start;

@@ -21,7 +21,7 @@ const CreateProject = () => {
     };
 
     const cancel = () => {
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     const store = async (e) => {
@@ -48,28 +48,29 @@ const CreateProject = () => {
                 <h2>Add project</h2>
                 <form onSubmit={store}>
                     <div className="field">
-                        <label>Name of project: --</label>
+                        <label>Project name: -----------</label>
                         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
                     </div>
                     <div className="field">
-                        <label>Description: -------</label>
+                        <label>Description: -------------</label>
                         <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
                     </div>
                     <div className="field">
-                        <label>Picture: -</label>
+                        <label>Picture: -------</label>
                         {/* campo para archivo */}
                         <input type="file" onChange={handlePictureChange} accept="image/*" />
                     </div>
                     <div className="field">
-                        <label>Link GitHub: ------</label>
+                        <label>Link GitHub: ------------</label>
                         <input type="text" value={link1} onChange={(e) => setLink1(e.target.value)} />
                     </div>
                     <div className="field">
-                        <label>Other link: -------- </label>
+                        <label>Other link: -------------- </label>
                         <input type="text" value={link2} onChange={(e) => setLink2(e.target.value)} />
                     </div>
+                    <div className="container-buttones"></div>
                     <button className="buttons">Upload</button>
-                    <button className="buttons" onClick={cancel}>Cancel</button>
+                    <button className="buttons-create" onClick={cancel}>Cancel</button>
                 </form>
             </div>
         </div>

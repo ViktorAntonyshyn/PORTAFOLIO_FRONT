@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; */ 
-    background-image: url("src/pics/background.png");
+    background-image: url("/src/pics/background.png");
     min-height: 100vh;
     margin: 0;
     /* Забезпечує розширення сторінки на весь висоту вікна перегляду. */
@@ -25,7 +25,8 @@ p .name-Project {
 
 .all-container {
     margin-top: 20px;
-    width: 100%;
+    margin-bottom: 30px;
+    width: 90%;
     white-space: normal;
     display: flex;
     flex-direction: column;
@@ -46,8 +47,6 @@ p .name-Project {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 
@@ -56,11 +55,9 @@ p .name-Project {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .buttons {
-
     font-size: 16px;
     font-weight: bolder;
     margin-top: 75px;
