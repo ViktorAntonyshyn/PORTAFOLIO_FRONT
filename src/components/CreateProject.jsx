@@ -39,7 +39,7 @@ const CreateProject = () => {
                 "Content-Type": "multipart/form-data" // Importante anado verdadero valor de Content-Type
             }
         });
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     return (

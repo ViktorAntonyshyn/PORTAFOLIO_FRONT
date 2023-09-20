@@ -33,7 +33,7 @@ const EditProject = () => {
                 "Content-Type": "multipart/form-data"
             }
         });
-        navigate("/projects");
+        navigate("/projects/manager");
     };
 
     useEffect(() => {

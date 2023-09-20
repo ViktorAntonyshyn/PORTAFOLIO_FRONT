@@ -28,7 +28,6 @@ function Navbar1() {
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <Nav.Link href="/">Start</Nav.Link>
                                     <Nav.Link href="/about">About me</Nav.Link>
-                                    <Nav.Link href="#action2">Curriculum</Nav.Link>
                                     <NavDropdown title="Projects"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                         <NavDropdown.Item href="/projects">All projects</NavDropdown.Item>
@@ -36,14 +35,14 @@ function Navbar1() {
                                         <NavDropdown.Item href="/projects/manager">Project Manager</NavDropdown.Item>
                                     </NavDropdown>
 
-                                    <NavDropdown title="Skills"
+{/*                                     <NavDropdown title="Skills"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                         <NavDropdown.Item href="/projects">Technologies</NavDropdown.Item>
                                         <NavDropdown.Item href="/projects">Tools</NavDropdown.Item>
                                         <NavDropdown.Item href="/projects">Software</NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="/languages">Languages</NavDropdown.Item>
-                                    </NavDropdown>
+                                    </NavDropdown> */}
 
                                     <NavDropdown title="Curriculum"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
