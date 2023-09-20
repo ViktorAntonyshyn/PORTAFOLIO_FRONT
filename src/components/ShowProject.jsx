@@ -34,8 +34,8 @@ const ShowProject = () => {
                         <br /><p> Project name: <span className='name-Project'>{project.name}</span></p>
                         <p> Description: <span className='name-Project'>{project.description}</span> </p>
                         <img className='pic-project' src={project.picture} alt={project.name}></img><br />
-                        <a href={project.link1} target="_blank" rel="noopener noreferrer">Go to GitHub repository {project.link1}</a>
-                        <a href={project.link2} target="_blank" rel="noopener noreferrer">Go to GitHub repository {project.link2}</a><br />
+                        <a href={project.link1} target="_blank" rel="noopener noreferrer">Go to GitHub repository BACKEND</a>
+                        <a href={project.link2} target="_blank" rel="noopener noreferrer">Go to GitHub repository FRONTEND</a><br />
                     </div>
 
                 </div>
