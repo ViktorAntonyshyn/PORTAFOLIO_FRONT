@@ -11,7 +11,7 @@ const Start = () => {
             </div>
             <div>
                 <a href="/about">
-                    <img className="pic-start" src="src/pics/back1.png" alt="Alternative Text" />
+                    <img className="pic-start" src="/src/pics/back1.png" alt="Alternative Text" />
                 </a>
             </div>
             <div>
