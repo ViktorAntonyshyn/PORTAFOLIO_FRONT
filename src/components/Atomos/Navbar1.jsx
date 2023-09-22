@@ -48,7 +48,7 @@ function Navbar1() {
 
                                     <NavDropdown title="Curriculum"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                                        <NavDropdown.Item href="/public/CV Víktor Antonyshynf5v2.pdf" target="_blank">Open</NavDropdown.Item>
+                                        <NavDropdown.Item href= {CV} target="_blank">Open</NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href= {CV} download>Download</NavDropdown.Item>
                                     </NavDropdown>
