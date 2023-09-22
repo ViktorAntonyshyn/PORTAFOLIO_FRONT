@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <h4>About me:</h4>
                 <About /><br />
                 <a href= {CV} target="_blank">Open curriculum</a><br />
-                <a href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download curriculum</a><br />
+                <a href= {CV} download>Download curriculum</a><br />
             </div>
          <div>
                 <Footer />
