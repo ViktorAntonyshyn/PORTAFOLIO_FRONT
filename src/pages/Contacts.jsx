@@ -1,7 +1,7 @@
 import Cont from "../components/Atomos/Cont";
 import Footer from "../components/Atomos/Footer";
-import Languages from "../components/Atomos/Languages";
 import Navbar1 from "../components/Atomos/Navbar1";
+import './Contacts.css'
 
 
 const Contacts = () => {
@@ -12,7 +12,7 @@ const Contacts = () => {
       <div>
         <Cont />
       </div>
-      <div>
+      <div className="footer-contacts">
         <Footer />
       </div>
 
