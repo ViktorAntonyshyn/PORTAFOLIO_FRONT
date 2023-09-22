@@ -6,7 +6,7 @@ import tools from '/public/tools.png'
 function About() {
   return (
     <div className='container-accordeon'>
-      <Accordion defaultActiveKey="0">
+      <Accordion defaultActiveKey="">
         <Accordion.Item eventKey="0">
           <Accordion.Header> <span className='name-accordeons'>Who am I</span> </Accordion.Header>
           <Accordion.Body>
