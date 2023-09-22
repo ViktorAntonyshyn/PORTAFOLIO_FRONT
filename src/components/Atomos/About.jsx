@@ -1,6 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 import './About.css'
 import Languages from './Languages';
+import tools from '/public/tools.png'
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
               <p> • I am Viktor Antonyshyn. I am Ukrainian. I am a refugee from Ukrainian war. My home in Ukraine was
                 completely destroyed.  </p>
               <p> • I'm starting my life all over again. </p>
-              <p> • I have the                 disability certificate 35%.</p>
+              <p> • I have the disability certificate 35%.</p>
               <p> • I like to code and work with a computer and many Applications.
               </p>
               <p> • Im looking a job like junior full-stack web developer other work related to programming
@@ -58,7 +59,7 @@ function About() {
           <Accordion.Header><span className='name-accordeons'>Web developing technologies and tools</span></Accordion.Header>
           <Accordion.Body>
             <div>
-              <img className='pic-tools' src="src/pics/tools.png" alt="technologies and tools"></img>
+              <img className='pic-tools' src= {tools} alt="technologies and tools"></img>
             </div>
           </Accordion.Body>
         </Accordion.Item>
