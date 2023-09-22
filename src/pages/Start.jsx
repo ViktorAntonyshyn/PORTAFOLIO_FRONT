@@ -2,7 +2,7 @@ import Navbar1 from "../components/Atomos/Navbar1";
 import Footer from "../components/Atomos/Footer";
 import React from 'react';
 import './Start.css'
-import {back1} from '../pics/back1.png'
+import {back1} from '../assets/back1.png'
 
 const Start = () => {
     return (
