@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './Navbar1.css'
+import CV from "/public/CV Víktor Antonyshynf5v2.pdf"
 
 
 import { Icon } from '@iconify/react';
@@ -47,9 +48,9 @@ function Navbar1() {
 
                                     <NavDropdown title="Curriculum"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                                        <NavDropdown.Item href="/public/CV Víktor Antonyshynf5v2.pdf" target="_blank">Open</NavDropdown.Item>
+                                        <NavDropdown.Item href= {CV} target="_blank">Open</NavDropdown.Item>
                                         <NavDropdown.Divider />
-                                        <NavDropdown.Item href="/public/CV Víktor Antonyshynf5v2.pdf" download>Download</NavDropdown.Item>
+                                        <NavDropdown.Item href= {CV} download>Download</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/contacts">Contacts</Nav.Link>
                                 </Nav>
