@@ -2,6 +2,7 @@ import Navbar1 from "../components/Atomos/Navbar1";
 import Footer from "../components/Atomos/Footer";
 import React from 'react';
 import './Start.css'
+import {back1} from '../pics/back1.png'
 
 const Start = () => {
     return (
@@ -11,7 +12,7 @@ const Start = () => {
             </div>
             <div>
                 <a href="/about">
-                    <img className="pic-start" src="/src/pics/back1.png" alt="Alternative Text" />
+                    <img className="pic-start" src={back1} alt="Alternative Text" />
                 </a>
             </div>
             <div>
