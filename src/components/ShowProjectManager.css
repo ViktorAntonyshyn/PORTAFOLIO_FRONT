@@ -13,7 +13,6 @@
     /* background-color: whitesmoke; */
     background-image: url("/src/pics/background1.png");
 }
-
 .all-container-manager:hover {
     /* transform: translateY (10px); */
     box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.4);
