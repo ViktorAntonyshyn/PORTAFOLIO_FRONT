@@ -14,7 +14,7 @@ const ProjectManager = () => {
 
             <div className="page">
                 <NavLink to="/projects/create"><button className="buttons"  type="button-create" >Add new project</button></NavLink>
-                <h2>Manage to projects:</h2>
+                <h2>Manage me projects:</h2>
                 <div className="project-cards">
                     <ShowProjectManager />
                 </div>
