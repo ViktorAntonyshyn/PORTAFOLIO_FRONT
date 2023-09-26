@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import './ShowProjectManager.css'
 
-const url = "http://portafolio-production-6a6e.up.railway.app/api/v1/projects";
+const url = "https://portafolio-production-6a6e.up.railway.app/api/v1/projects";
 const ShowProjectManager = () => {
     const [project, setProject] = useState([])
     useEffect(() => {

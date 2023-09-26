@@ -4,7 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import './EditProject.css'
 
 // Codigo abajo es cuando back-end modificado para subir binare archivo
-const url = "http://portafolio-production-6a6e.up.railway.app/api/v1/projects";
+const url = "https://portafolio-production-6a6e.up.railway.app/api/v1/projects";
 
 const EditProject = () => {
     const [name, setName] = useState('');
