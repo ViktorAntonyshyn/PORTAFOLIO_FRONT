@@ -3,7 +3,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import './CreateProject.css' 
 
-const url = "http://localhost:8080/api/v1/projects";
+const url = "https://portafolio-production-6a6e.up.railway.app/api/v1/projects";
 
 const CreateProject = () => {
     const [name, setName] = useState('');
