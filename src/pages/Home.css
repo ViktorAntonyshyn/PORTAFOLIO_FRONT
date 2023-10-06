@@ -18,9 +18,9 @@
   @media (max-width: 1280px)
   @media (max-width: 1024px)
   @media (max-width: 768px)
-  @media (max-width: 680px)
+  @media (max-width: 460px)
 */
-@media (max-width: 680px) {
+@media (max-width: 768px) {
     .project-cards{
         width: 90%;
     }
