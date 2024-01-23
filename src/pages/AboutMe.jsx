@@ -14,7 +14,8 @@ const AboutMe = () => {
             <div className="acordeon">
                 <h4>About me:</h4>
                 <About /><br />
-                <a href= {CV} target="_blank">Abrir mi curriculum</a><br />
+
+                <a href= {CV} target="_blank">Abrir curriculum</a><br />
                 <a href= {CV} download>Download curriculum</a><br />
             </div>
          <div>
