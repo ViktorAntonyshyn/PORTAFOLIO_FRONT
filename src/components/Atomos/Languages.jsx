@@ -11,14 +11,8 @@ function Languages() {
                 <div className='lang'>
                     {/* <h5>Languages</h5> */}
                 </div>
-                <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                    <span>1.  </span>
-                    <div className="progress-bar" style={{ width: '27%' }}>English</div>
-                </div> <br />
-                <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                    <span>2.  </span>
-                    <div className="progress-bar" style={{ width: '40%' }}>Spanish</div>
-                </div> <br />
+
+
                 <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                     <span>3.  </span>
                     <div className="progress-bar" style={{ width: '60%' }}>Polish</div>
@@ -30,7 +24,17 @@ function Languages() {
                 <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                     <span>5.  </span>
                     <div className="progress-bar" style={{ width: '99%' }}>Ukraniano - nativo</div>
-                </div></div>
+                </div><br />
+                <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <span>5.  </span>
+                    <div className="progress-bar" style={{ width: '27%' }}>English</div>
+                </div> <br />
+                <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <span>2.  </span>
+                    <div className="progress-bar" style={{ width: '40%' }}>Spanish</div>
+                </div> <br />
+                
+                </div>
 
         </>
     );
