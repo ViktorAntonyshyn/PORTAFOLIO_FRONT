@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './Languages.css'
-import './Languages.css'
+import './Languages'
 
 function Languages() {
     return (
