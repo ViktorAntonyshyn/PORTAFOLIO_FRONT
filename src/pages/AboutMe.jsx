@@ -2,7 +2,7 @@ import About from "../components/Atomos/About";
 import Footer from "../components/Atomos/Footer";
 import Navbar1 from "../components/Atomos/Navbar1";
 import './AboutMe.css'
-import CV from "/public/CV Víktor Antonyshynf5v2.pdf"
+import CV from "/public/CV_es_VíktorA_08.2024.pdf"
 
 
 const AboutMe = () => {
