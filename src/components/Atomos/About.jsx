@@ -14,7 +14,7 @@ function About() {
               <p> • I am Viktor Antonyshyn. I am Ukrainian. I am a refugee from Ukrainian war. My home in Ukraine was
                 completely destroyed.  </p>
               <p> • I'm starting my life all over again. </p>
-              <p> • I have the disability certificate 65%.</p>
+              <p> • I have the disability certificate 35%.</p>
               <p> • I like to code and work with a computer and many Applications.
               </p>
               <p> • Im looking a job like junior full-stack web developer other work related to programming
