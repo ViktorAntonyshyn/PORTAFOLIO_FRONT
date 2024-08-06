@@ -25,7 +25,7 @@ export const router = createBrowserRouter ([
         element: <Home/>
     },
     {
-        path: "/projects/manager",
+        path: "/",
         element: <ProjectManager/>
     },
     {
