@@ -4,7 +4,6 @@ import Navbar1 from "../components/Atomos/Navbar1";
 import './AboutMe.css'
 import CV from "/public/CV_es_VíktorA_08.2024.pdf"
 
-
 const AboutMe = () => {
     return (
         <> <div className="page-about">
