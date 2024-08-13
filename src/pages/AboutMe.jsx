@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <Navbar1 />
             </div>
             <div className="acordeon">
-                <h4>About meeee:</h4>
+                <h4>About me:</h4>
                 <About /><br />
 
                 <a href= {CV} target="_blank">Open curriculum</a><br />
