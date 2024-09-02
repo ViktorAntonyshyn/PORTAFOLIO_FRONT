@@ -19,7 +19,7 @@ function Navbar1() {
             {[false].map((expand) => (
                 <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3" id='nav'>
                     <Container fluid>
-                        <Navbar.Brand href="#">- VIKTOR  ANTONYSHYN =</Navbar.Brand>
+                        <Navbar.Brand href="#">- VIKTOR  ANTONYSHYN -</Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
